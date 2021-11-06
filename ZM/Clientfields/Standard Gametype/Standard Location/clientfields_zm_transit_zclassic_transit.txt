@@ -1,0 +1,67 @@
+allplayers playerinfog 1 1 int
+world screecher_light_cornfield 1 1 int
+world screecher_light_powerstation 1 1 int
+world screecher_light_huntershack 1 1 int
+world screecher_light_busdepot 1 1 int
+world screecher_light_forest 1 1 int
+world screecher_light_diner 1 1 int
+world screecher_light_townbridge 1 1 int
+world screecher_light_bridgedepot 1 1 int
+toplayer deadshot_perk 1 1 int
+actor zombie_riser_fx 1 1 int
+world zombie_power_on 1 1 int
+allplayers navcard_held 1 4 int
+allplayers charindex 1 3 int
+toplayer isspeaking 1 1 int
+scriptmover equipment_activated 12000 4 int
+zbarrier magicbox_glow 1000 1 int
+zbarrier zbarrier_show_sounds 9000 1 int
+zbarrier zbarrier_leave_sounds 9000 1 int
+toplayer perk_double_tap 1 2 int
+toplayer perk_juggernaut 1 2 int
+toplayer perk_marathon 1 2 int
+toplayer perk_quick_revive 1 2 int
+toplayer perk_sleight_of_hand 1 2 int
+toplayer perk_tombstone 1 2 int
+toplayer powerup_instant_kill 1 2 int
+toplayer powerup_double_points 1 2 int
+toplayer powerup_instant_kill_ug 5000 2 int
+scriptmover powerup_fx 1000 3 int
+allplayers score_cf_damage 1 3 int
+allplayers score_cf_death_normal 1 2 int
+allplayers score_cf_death_torso 1 2 int
+allplayers score_cf_death_neck 1 2 int
+allplayers score_cf_death_head 1 2 int
+allplayers score_cf_death_melee 1 2 int
+allplayers score_cf_double_points_active 1 1 int
+actor zombie_has_eyes 1 1 int
+actor zombie_ragdoll_explode 1 1 int
+actor zombie_gut_explosion 9000 1 int
+toplayer blackscreen 1 1 int
+world sticky_grenade_zm_(1083.7, -1579.5, 12) 1 2 int
+world rottweil72_zm_(-6925, 5554, -4) 1 2 int
+world ak74u_zm_(11179.5, 7635.5, -502) 1 2 int
+world m14_zm_(-6329, 5350, 17) 1 2 int
+world 870mcs_zm_(8035.38, -5316.37, 110) 1 2 int
+world mp5k_zm_(-5489, -7982.7, 62) 1 2 int
+world m16_zm_(-11839, -1695.1, 287) 1 2 int
+world bowie_knife_zm_(5002.97, 7019, 36.5) 1 2 int
+world tazer_knuckles_zm_(-6399.2, -7938.5, 207.25) 1 2 int
+world claymore_zm_(8827, -5838, 103) 1 2 int
+toplayer tazer_flourish 1 1 int
+toplayer buildable 1 5 int
+vehicle the_bus_spawned 1 1 int
+vehicle bus_flashing_lights 1 1 int
+vehicle bus_head_lights 1 1 int
+vehicle bus_brake_lights 1 1 int
+vehicle bus_turn_signal_left 1 1 int
+vehicle bus_turn_signal_right 1 1 int
+allplayers screecher_sq_lights 1 1 int
+allplayers screecher_maxis_lights 1 1 int
+allplayers sq_tower_sparks 1 1 int
+toplayer power_rumble 1 1 int
+actor render_third_person 1 1 int
+toplayer overlay_slot 1 2 int
+toplayer overlay_lerp 1 4 float
+toplayer visionset_slot 1 1 int
+toplayer visionset_lerp 1 3 float

@@ -1,0 +1,76 @@
+toplayer meat_stink 1 1 int
+actor fan_trap_blood_fx 9000 1 int
+actor acid_trap_death_fx 9000 1 int
+toplayer toggle_lightning 9000 1 int
+toplayer rumble_electric_chair 9000 2 int
+toplayer effects_escape_flight 9000 3 int
+toplayer rumble_gondola 9000 1 int
+toplayer rumble_fan_trap 9000 1 int
+toplayer rumble_sq_bg 9000 1 int
+toplayer rumble_door_open 9000 1 int
+world toggle_futz 9000 1 int
+world dryer_stage 9000 2 int
+world fog_stage 9000 2 int
+world scripted_lightning_flash 9000 1 int
+world warden_fence_down 9000 1 int
+world master_key_is_lowered 9000 1 int
+world fxanim_pulley_down_start 9000 2 int
+world sq_bg_reward_portal 9000 1 int
+toplayer spoon_visual_state 9000 2 int
+scriptmover afterlife_shockbox_glow 9000 1 int
+scriptmover toggle_perk_machine_power 9000 2 int
+zbarrier magicbox_initial_fx 2000 1 int
+zbarrier magicbox_amb_fx 2000 2 int
+zbarrier magicbox_open_fx 2000 1 int
+zbarrier magicbox_leaving_fx 2000 1 int
+toplayer deadshot_perk 1 1 int
+actor zombie_riser_fx 1 1 int
+world zombie_power_on 1 1 int
+allplayers charindex 1 3 int
+toplayer isspeaking 1 1 int
+scriptmover equipment_activated 12000 4 int
+zbarrier magicbox_glow 1000 1 int
+zbarrier zbarrier_show_sounds 9000 1 int
+zbarrier zbarrier_leave_sounds 9000 1 int
+toplayer perk_additional_primary_weapon 1 2 int
+toplayer perk_dead_shot 1 2 int
+toplayer perk_double_tap 1 2 int
+toplayer perk_juggernaut 1 2 int
+toplayer perk_sleight_of_hand 1 2 int
+toplayer perk_dive_to_nuke 9000 1 int
+toplayer powerup_instant_kill 1 2 int
+toplayer powerup_double_points 1 2 int
+toplayer powerup_fire_sale 1 2 int
+scriptmover powerup_fx 1000 3 int
+allplayers score_cf_damage 1 3 int
+allplayers score_cf_death_normal 1 2 int
+allplayers score_cf_death_torso 1 2 int
+allplayers score_cf_death_neck 1 2 int
+allplayers score_cf_death_head 1 2 int
+allplayers score_cf_death_melee 1 2 int
+allplayers score_cf_double_points_active 1 1 int
+actor zombie_has_eyes 1 1 int
+actor zombie_ragdoll_explode 1 1 int
+actor zombie_gut_explosion 9000 1 int
+toplayer blackscreen 1 1 int
+world m14_zm_(2109, 10470, 1394) 1 2 int
+world rottweil72_zm_(329, 10569, 1396) 1 2 int
+world uzi_zm_(-1071, 9346, 1398) 1 2 int
+world 870mcs_zm_(601, 9407, 1163) 1 2 int
+world 870mcs_zm_(1761, 9018, 1201) 1 2 int
+world beretta93r_zm_(815, 9482, 1498) 1 2 int
+world uzi_zm_(3377, 9684, 1590) 1 2 int
+world mp5k_zm_(-318.326, 6569.06, 117) 1 2 int
+world thompson_zm_(-1408.33, 5869.92, -9) 1 2 int
+world uzi_zm_(-329.947, 7916.05, 234) 1 2 int
+world mp5k_zm_(1934, 9497, 1393) 1 2 int
+world claymore_zm_(3390, 9915, 1393) 1 2 int
+toplayer tomahawk_in_use 9000 2 int
+toplayer upgraded_tomahawk_in_use 9000 1 int
+scriptmover play_tomahawk_fx 9000 2 int
+actor play_tomahawk_hit_sound 9000 1 int
+actor make_client_clone 9000 4 int
+world soul_catcher_2 9000 3 int
+world soul_catcher_3 9000 3 int
+world soul_catcher_1 9000 3 int
+toplayer visionset_slot 9000 2 int

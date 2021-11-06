@@ -1,0 +1,19 @@
+/*
+	GSC built in methods. Requires a player entity ref.
+	Returns true if the player is pressing the button at the time of function call, false otherwise.
+*/
+sprintbuttonpressed();
+inventorybuttonpressed();
+secondaryoffhandbuttonpressed();
+fragbuttonpressed();
+stancebuttonpressed();
+jumpbuttonpressed();
+meleebuttonpressed();
+adsbuttonpressed();
+actionslotfourbuttonpressed();
+actionslotthreebuttonpressed();
+actionslottwobuttonpressed();
+actionslotonebuttonpressed();
+attackbuttonpressed();
+changeseatbuttonpressed();
+usebuttonpressed();

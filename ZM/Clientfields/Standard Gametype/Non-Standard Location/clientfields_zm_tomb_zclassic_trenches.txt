@@ -1,0 +1,197 @@
+zbarrier magicbox_initial_fx 2000 1 int
+zbarrier magicbox_amb_fx 2000 2 int
+zbarrier magicbox_open_fx 2000 1 int
+zbarrier magicbox_leaving_fx 2000 1 int
+toplayer deadshot_perk 1 1 int
+actor zombie_riser_fx 1 1 int
+world zombie_power_on 1 1 int
+allplayers charindex 1 3 int
+toplayer isspeaking 1 1 int
+zbarrier magicbox_glow 1000 1 int
+zbarrier zbarrier_show_sounds 9000 1 int
+zbarrier zbarrier_leave_sounds 9000 1 int
+toplayer perk_additional_primary_weapon 1 2 int
+toplayer perk_dead_shot 1 2 int
+toplayer perk_double_tap 1 2 int
+toplayer perk_juggernaut 1 2 int
+toplayer perk_marathon 1 2 int
+toplayer perk_quick_revive 1 2 int
+toplayer perk_sleight_of_hand 1 2 int
+toplayer perk_electric_cherry 9000 1 int
+toplayer perk_dive_to_nuke 9000 1 int
+toplayer powerup_instant_kill 1 2 int
+toplayer powerup_double_points 1 2 int
+toplayer powerup_fire_sale 1 2 int
+allplayers player_zombie_blood_fx 14000 1 int
+toplayer powerup_zombie_blood 1 2 int
+scriptmover powerup_fx 1000 3 int
+allplayers score_cf_damage 1 3 int
+allplayers score_cf_death_normal 1 2 int
+allplayers score_cf_death_torso 1 2 int
+allplayers score_cf_death_neck 1 2 int
+allplayers score_cf_death_head 1 2 int
+allplayers score_cf_death_melee 1 2 int
+allplayers score_cf_double_points_active 1 1 int
+actor zombie_has_eyes 1 1 int
+actor zombie_ragdoll_explode 1 1 int
+actor zombie_gut_explosion 9000 1 int
+toplayer blackscreen 1 1 int
+world mp40_zm_(3237, -429, 195) 1 1 int
+world mp40_zm_(-517, 4503.75, -285) 1 1 int
+world 870mcs_zm_(1538, 3697, -266) 1 1 int
+world m14_zm_(2439, 5356, -308) 1 1 int
+world mp44_zm_(-4.5, 494.75, -200) 1 1 int
+world ballista_zm_(2039, 4520.25, -246) 1 1 int
+world sticky_grenade_zm_(2301, 2860, -216) 1 1 int
+world ak74u_zm_(708.5, 2628.75, -171) 1 1 int
+world mp44_zm_(9450.25, -7284.5, -330) 1 1 int
+world 870mcs_zm_(962, -4051.75, 355) 1 1 int
+world ak74u_zm_(11187.8, -8379.5, -358) 1 1 int
+world ak74u_zm_(-335, 131.5, 378) 1 1 int
+world mp44_zm_(571.653, -2518.66, 414) 1 1 int
+world beretta93r_zm_(2239, 3536.25, -256) 1 1 int
+world beretta93r_zm_(-62.0088, -2746.03, 110) 1 1 int
+world fiveseven_zm_(1270.64, -2593.29, 146.5) 1 1 int
+world fiveseven_zm_(-927.75, 3036, -52) 1 1 int
+world sticky_grenade_zm_(803.157, -2885.94, 104) 1 1 int
+world 870mcs_zm_(-3327.75, 78, -17) 1 1 int
+world mp40_zm_(-639.882, 692.846, 199) 1 1 int
+world claymore_zm_(1197, 4364.75, -289) 1 1 int
+world claymore_zm_(-2841, -69.75, 307) 1 1 int
+world claymore_zm_(2353, 473, 172) 1 1 int
+toplayer challenge_complete_1 14000 1 int
+toplayer challenge_complete_2 14000 1 int
+toplayer challenge_complete_3 14000 1 int
+toplayer challenge_complete_4 14000 1 int
+scriptmover perk_bottle_cycle_state 14000 2 int
+scriptmover turn_active_perk_light_red 14000 1 int
+scriptmover turn_active_perk_light_green 14000 1 int
+scriptmover turn_on_location_indicator 14000 1 int
+scriptmover turn_active_perk_ball_light 14000 1 int
+scriptmover zone_captured 14000 1 int
+scriptmover stone_frozen 14000 1 int
+world rain_level 14000 3 int
+world snow_level 14000 3 int
+toplayer player_weather_visionset 14000 2 int
+toplayer player_rumble_and_shake 14000 3 int
+scriptmover sky_pillar 14000 1 int
+scriptmover staff_charger 14000 3 int
+toplayer player_staff_charge 14000 2 int
+toplayer player_tablet_state 14000 2 int
+actor zombie_soul 14000 1 int
+zbarrier magicbox_runes 14000 1 int
+scriptmover barbecue_fx 14000 1 int
+world cooldown_steam 14000 2 int
+world mus_zmb_egg_snapshot_loop 14000 1 int
+world sndMaelstromPlr0 14000 1 int
+world sndMaelstromPlr1 14000 1 int
+world sndMaelstromPlr2 14000 1 int
+world sndMaelstromPlr3 14000 1 int
+world sndChamberMusic 14000 3 int
+actor foot_print_box_fx 14000 1 int
+scriptmover foot_print_box_glow 14000 1 int
+world crypt_open_exploder 14000 1 int
+world lantern_fx 14000 1 int
+allplayers oneinchpunch_impact 14000 1 int
+actor oneinchpunch_physics_launchragdoll 14000 1 int
+vehicle tank_tread_fx 14000 1 int
+vehicle tank_flamethrower_fx 14000 2 int
+vehicle tank_cooldown_fx 14000 2 int
+world play_launch_artillery_fx_robot_0 14000 1 int
+world play_launch_artillery_fx_robot_1 14000 1 int
+world play_launch_artillery_fx_robot_2 14000 1 int
+scriptmover play_beacon_fx 14000 1 int
+scriptmover play_artillery_barrage 14000 2 int
+scriptmover whirlwind_play_fx 14000 1 int
+actor air_staff_launch 14000 1 int
+allplayers air_staff_source 14000 1 int
+actor fire_char_fx 14000 1 int
+toplayer fire_muzzle_fx 14000 1 int
+actor lightning_impact_fx 14000 1 int
+scriptmover lightning_miss_fx 14000 1 int
+actor lightning_arc_fx 14000 1 int
+scriptmover staff_blizzard_fx 14000 1 int
+actor anim_rate 14000 2 float
+actor attach_bullet_model 14000 1 int
+actor register_giant_robot 14000 1 int
+world start_anim_robot_0 14000 1 int
+world start_anim_robot_1 14000 1 int
+world start_anim_robot_2 14000 1 int
+world play_foot_stomp_fx_robot_0 14000 2 int
+world play_foot_stomp_fx_robot_1 14000 2 int
+world play_foot_stomp_fx_robot_2 14000 2 int
+world play_foot_open_fx_robot_0 14000 2 int
+world play_foot_open_fx_robot_1 14000 2 int
+world play_foot_open_fx_robot_2 14000 2 int
+world eject_warning_fx_robot_0 14000 1 int
+world eject_warning_fx_robot_1 14000 1 int
+world eject_warning_fx_robot_2 14000 1 int
+allplayers eject_steam_fx 14000 1 int
+allplayers all_tubes_play_eject_steam_fx 14000 1 int
+allplayers gr_eject_player_impact_fx 14000 1 int
+toplayer giant_robot_rumble_and_shake 14000 2 int
+world church_ceiling_fxanim 14000 1 int
+world packapunch_anim 14000 3 int
+actor zone_capture_zombie 14000 1 int
+scriptmover zone_capture_emergence_hole 14000 1 int
+world zc_change_progress_bar_color 14000 1 int
+world zone_capture_hud_all_generators_captured 14000 1 int
+world zone_capture_perk_machine_smoke_fx_always_on 14000 1 int
+world pap_monolith_ring_shake 14000 1 int
+world generator_mid_trench 14000 7 float
+world state_generator_mid_trench 14000 3 int
+world zone_capture_hud_generator_3 14000 2 int
+world zone_capture_monolith_crystal_3 14000 1 int
+world zone_capture_perk_machine_smoke_fx_3 14000 1 int
+world generator_nml_left 14000 7 float
+world state_generator_nml_left 14000 3 int
+world zone_capture_hud_generator_5 14000 2 int
+world zone_capture_monolith_crystal_5 14000 1 int
+world zone_capture_perk_machine_smoke_fx_5 14000 1 int
+world generator_nml_right 14000 7 float
+world state_generator_nml_right 14000 3 int
+world zone_capture_hud_generator_4 14000 2 int
+world zone_capture_monolith_crystal_4 14000 1 int
+world zone_capture_perk_machine_smoke_fx_4 14000 1 int
+world generator_start_bunker 14000 7 float
+world state_generator_start_bunker 14000 3 int
+world zone_capture_hud_generator_1 14000 2 int
+world zone_capture_monolith_crystal_1 14000 1 int
+world zone_capture_perk_machine_smoke_fx_1 14000 1 int
+world generator_tank_trench 14000 7 float
+world state_generator_tank_trench 14000 3 int
+world zone_capture_hud_generator_2 14000 2 int
+world zone_capture_monolith_crystal_2 14000 1 int
+world zone_capture_perk_machine_smoke_fx_2 14000 1 int
+world generator_church 14000 7 float
+world state_generator_church 14000 3 int
+world zone_capture_hud_generator_6 14000 2 int
+world zone_capture_monolith_crystal_6 14000 1 int
+world zone_capture_perk_machine_smoke_fx_6 14000 1 int
+world sky_battle_ambient_fx 14000 1 int
+actor mechz_fx 14000 12 int
+toplayer mechz_grab 14000 1 int
+world shovel_player1 14000 2 int
+world shovel_player2 14000 2 int
+world shovel_player3 14000 2 int
+world shovel_player4 14000 2 int
+world helmet_player1 14000 1 int
+world helmet_player2 14000 1 int
+world helmet_player3 14000 1 int
+world helmet_player4 14000 1 int
+scriptmover teleporter_fx 14000 1 int
+actor ee_zombie_fist_fx 14000 1 int
+actor ee_zombie_soul_portal 14000 1 int
+world ee_sam_portal 14000 2 int
+vehicle ee_plane_fx 14000 1 int
+world ee_ending 14000 1 int
+world wagon_1_fire 14000 1 int
+world wagon_2_fire 14000 1 int
+world wagon_3_fire 14000 1 int
+actor ee_zombie_tablet_fx 14000 1 int
+toplayer ee_beacon_reward 14000 1 int
+world light_show 14000 2 int
+toplayer overlay_slot 14000 2 int
+toplayer overlay_lerp 14000 4 float
+toplayer visionset_slot 14000 1 int
+toplayer visionset_lerp 14000 4 float

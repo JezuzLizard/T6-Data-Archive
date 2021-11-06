@@ -1,0 +1,163 @@
+world GENERATOR_POWER_STATES 12000 2 int
+world GENERATOR_POWER_STATES_COLOR 12000 1 int
+world GENERATOR_POWER_STATES_LERP 12000 5 float
+world cw_fall 12000 1 int
+world maze_fountain_start 12000 1 int
+world sloth_fountain_start 12000 1 int
+world mansion_piano_play 12000 1 int
+world saloon_piano_play 12000 1 int
+world mus_noir_snapshot_loop 12000 1 int
+world mus_zmb_egg_snapshot_loop 12000 1 int
+toplayer sndBackgroundMus 12000 3 int
+toplayer clientfield_underground_lighting 12000 1 int
+actor buried_sq_maxis_ending_update_eyeball_color 12000 1 int
+scriptmover AmplifierShaderConstant 12000 5 float
+scriptmover vulture_wisp 12000 1 int
+world vulture_wisp_orb_count 12000 3 int
+world sq_tpo_special_round_active 12000 1 int
+world buried_sq_maxis_ending 12000 1 int
+world buried_sq_richtofen_ending 12000 1 int
+world sq_gl_b_vt 12000 1 int
+world sq_gl_b_bb 12000 1 int
+world sq_gl_b_a 12000 1 int
+world sq_gl_b_ws 12000 1 int
+world sq_ctw_m_t_l 12000 2 int
+world buried_sq_egm_animate 12000 1 int
+world buried_sq_egm_bulb_0 12000 1 int
+world buried_sq_egm_bulb_1 12000 1 int
+world buried_sq_egm_bulb_2 12000 1 int
+world buried_sq_egm_0_0 12000 2 int
+world buried_sq_egm_0_1 12000 2 int
+world buried_sq_egm_0_2 12000 2 int
+world buried_sq_egm_1_0 12000 2 int
+world buried_sq_egm_1_1 12000 2 int
+world buried_sq_egm_1_2 12000 2 int
+world buried_sq_egm_2_0 12000 2 int
+world buried_sq_egm_2_1 12000 2 int
+world buried_sq_egm_2_2 12000 2 int
+world buried_sq_egm_3_0 12000 2 int
+world buried_sq_egm_3_1 12000 2 int
+world buried_sq_egm_3_2 12000 2 int
+scriptmover buried_sq_bp_set_lightboard 13000 1 int
+world buried_sq_bp_light_01 13000 2 int
+world buried_sq_bp_light_02 13000 2 int
+world buried_sq_bp_light_03 13000 2 int
+world buried_sq_bp_light_04 13000 2 int
+world buried_sq_bp_light_05 13000 2 int
+world buried_sq_bp_light_06 13000 2 int
+world buried_sq_bp_light_07 13000 2 int
+world buried_sq_bp_light_08 13000 2 int
+world buried_sq_bp_light_09 13000 2 int
+world buried_sq_maxis_eye_glow_override 12000 1 int
+allplayers buried_sq_richtofen_player_eyes_stuhlinger 12000 1 int
+allplayers phd_flopper_effects 12000 1 int
+actor zombie_riser_fx 1 1 int
+actor zombie_riser_fx_foliage 12000 1 int
+world zombie_power_on 1 1 int
+allplayers navcard_held 1 4 int
+allplayers charindex 1 3 int
+toplayer isspeaking 1 1 int
+scriptmover equipment_activated 12000 4 int
+zbarrier magicbox_glow 1000 1 int
+zbarrier zbarrier_show_sounds 9000 1 int
+zbarrier zbarrier_leave_sounds 9000 1 int
+toplayer perk_additional_primary_weapon 1 2 int
+toplayer perk_double_tap 1 2 int
+toplayer perk_juggernaut 1 2 int
+toplayer perk_marathon 1 2 int
+toplayer perk_quick_revive 1 2 int
+toplayer perk_sleight_of_hand 1 2 int
+toplayer perk_vulture 12000 2 int
+toplayer perk_dive_to_nuke 9000 1 int
+toplayer vulture_perk_toplayer 12000 1 int
+actor vulture_perk_actor 12000 2 int
+scriptmover vulture_perk_scriptmover 12000 4 int
+zbarrier vulture_perk_zbarrier 12000 1 int
+toplayer sndVultureStink 12000 1 int
+world vulture_perk_disable_solo_quick_revive_glow 12000 1 int
+toplayer vulture_perk_disease_meter 12000 5 float
+toplayer powerup_instant_kill 1 2 int
+toplayer powerup_double_points 1 2 int
+toplayer powerup_fire_sale 1 2 int
+toplayer powerup_instant_kill_ug 5000 2 int
+scriptmover powerup_fx 1000 3 int
+allplayers score_cf_damage 1 3 int
+allplayers score_cf_death_normal 1 2 int
+allplayers score_cf_death_torso 1 2 int
+allplayers score_cf_death_neck 1 2 int
+allplayers score_cf_death_head 1 2 int
+allplayers score_cf_death_melee 1 2 int
+allplayers score_cf_double_points_active 1 1 int
+actor zombie_has_eyes 1 1 int
+actor zombie_ragdoll_explode 1 1 int
+actor zombie_gut_explosion 9000 1 int
+world rottweil72_zm_(-2352, -743, 1418) 1 2 int
+world m14_zm_(-2936.25, -826.85, 1418) 1 2 int
+world lsat_zm_(-3138, -387, 1553) 1 2 int
+world mp5k_zm_(2354.5, 736.25, 148) 1 2 int
+world beretta93r_zm_(-765.434, -925.25, 67.0034) 1 2 int
+world m16_zm_(675.25, -1119.5, 117) 1 2 int
+world bowie_knife_zm_(1102.36, -1836.06, 181) 1 2 int
+world dynamic_(-272, 886.5, 198) 1 2 int
+world dynamic_(-272, 886.5, 198)_idx 12000 3 int
+world dynamic_(1612.47, 1457.17, 255) 1 2 int
+world dynamic_(1612.47, 1457.17, 255)_idx 12000 3 int
+world dynamic_(557.93, -1119.41, 262) 1 2 int
+world dynamic_(557.93, -1119.41, 262)_idx 12000 3 int
+world dynamic_(-617.25, -427.02, 339.27) 1 2 int
+world dynamic_(-617.25, -427.02, 339.27)_idx 12000 3 int
+world dynamic_(599, 986.5, 234) 1 2 int
+world dynamic_(599, 986.5, 234)_idx 12000 3 int
+world dynamic_(-931.75, 510.5, 62) 1 2 int
+world dynamic_(-931.75, 510.5, 62)_idx 12000 3 int
+world claymore_zm_(823, -508, 61) 1 2 int
+actor slowgun_fx 12000 3 int
+actor anim_rate 7000 5 float
+allplayers anim_rate 7000 5 float
+toplayer sndParalyzerLoop 12000 1 int
+toplayer slowgun_fx 12000 1 int
+toplayer tazer_flourish 1 1 int
+world time_bomb_saved_round_number 12000 8 int
+world time_bomb_lua_override 12000 1 int
+world time_bomb_hud_toggle 12000 1 int
+toplayer sndTimebombLoop 12000 2 int
+world maze_blocker_blocker_7 12000 1 int
+world maze_blocker_blocker_3 12000 1 int
+world maze_blocker_blocker_8 12000 1 int
+world maze_blocker_blocker_10 12000 1 int
+world maze_blocker_blocker_2 12000 1 int
+world maze_blocker_blocker_9 12000 1 int
+world maze_blocker_blocker_1 12000 1 int
+world maze_blocker_blocker_12 12000 1 int
+world maze_blocker_blocker_4 12000 1 int
+world maze_blocker_blocker_13 12000 1 int
+world maze_blocker_blocker_6 12000 1 int
+world maze_blocker_blocker_11 12000 1 int
+world maze_blocker_blocker_14 12000 1 int
+world maze_blocker_blocker_5 12000 1 int
+world bdc 12000 1 int
+world bdb 12000 1 int
+world bda 12000 1 int
+actor ghost_impact_fx 12000 1 int
+actor ghost_fx 12000 3 int
+actor sndGhostAudio 12000 3 int
+scriptmover ghost_fx 12000 3 int
+scriptmover sndGhostAudio 12000 3 int
+world ghost_round_light_state 12000 1 int
+actor actor_is_sloth 12000 1 int
+actor sloth_berserk 12000 1 int
+actor sloth_ragdoll_zombie 12000 1 int
+actor sloth_vomit 12000 1 int
+actor sloth_buildable 12000 1 int
+actor sloth_drinking 12000 1 int
+actor sloth_eating 12000 1 int
+actor sloth_glass_brk 12000 1 int
+scriptmover buildable_glint_fx 12000 1 int
+toplayer buildable 12000 4 int
+toplayer buildable_pu 12000 3 int
+toplayer buildable_sq 12000 4 int
+actor subwoofer_flings_zombie 12000 1 int
+toplayer overlay_slot 12000 2 int
+toplayer overlay_lerp 12000 5 float
+toplayer visionset_slot 12000 2 int
+toplayer visionset_lerp 12000 3 float

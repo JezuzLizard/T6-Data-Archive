@@ -1,0 +1,49 @@
+toplayer meat_stink 1 1 int
+allplayers playerinfog 1 1 int
+world screecher_light_cornfield 1 1 int
+world screecher_light_powerstation 1 1 int
+world screecher_light_huntershack 1 1 int
+world screecher_light_busdepot 1 1 int
+world screecher_light_forest 1 1 int
+world screecher_light_diner 1 1 int
+world screecher_light_townbridge 1 1 int
+world screecher_light_bridgedepot 1 1 int
+toplayer deadshot_perk 1 1 int
+actor zombie_riser_fx 1 1 int
+world zombie_power_on 1 1 int
+allplayers charindex 1 3 int
+toplayer isspeaking 1 1 int
+scriptmover equipment_activated 12000 4 int
+zbarrier magicbox_glow 1000 1 int
+zbarrier zbarrier_show_sounds 9000 1 int
+zbarrier zbarrier_leave_sounds 9000 1 int
+toplayer perk_double_tap 1 2 int
+toplayer perk_juggernaut 1 2 int
+toplayer perk_marathon 1 2 int
+toplayer perk_quick_revive 1 2 int
+toplayer perk_sleight_of_hand 1 2 int
+toplayer perk_tombstone 1 2 int
+toplayer powerup_instant_kill 1 2 int
+toplayer powerup_double_points 1 2 int
+toplayer powerup_instant_kill_ug 5000 2 int
+scriptmover powerup_fx 1000 3 int
+allplayers score_cf_damage 1 3 int
+allplayers score_cf_death_normal 1 2 int
+allplayers score_cf_death_torso 1 2 int
+allplayers score_cf_death_neck 1 2 int
+allplayers score_cf_death_head 1 2 int
+allplayers score_cf_death_melee 1 2 int
+allplayers score_cf_double_points_active 1 1 int
+actor zombie_has_eyes 1 1 int
+actor zombie_ragdoll_explode 1 1 int
+actor zombie_gut_explosion 9000 1 int
+toplayer blackscreen 1 1 int
+world sticky_grenade_zm_(1083.7, -1579.5, 12) 1 2 int
+world rottweil72_zm_(-6925, 5554, -4) 1 2 int
+world ak74u_zm_(11179.5, 7635.5, -502) 1 2 int
+world m14_zm_(-6329, 5350, 17) 1 2 int
+world rottweil72_zm_(8035.38, -5317.37, 109) 1 2 int
+world mp5k_zm_(7889.5, -6550.06, 305) 1 2 int
+toplayer tazer_flourish 1 1 int
+toplayer overlay_slot 1 1 int
+toplayer overlay_lerp 1 4 float

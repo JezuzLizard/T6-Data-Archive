@@ -1,0 +1,4 @@
+//Triggered whenever a player sends a message via the chat.
+//"/" tokens used at the start of a message cause it to not show up in the chat.
+//Hidden messages are still logged however.
+level waittill("say", message, player, isHidden);
