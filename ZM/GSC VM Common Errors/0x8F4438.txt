@@ -1,0 +1,12 @@
+Problem: Caused by trying to call a function from a script but no script is including the script which contains that function.
+
+Exact line 520: byte_2DF3ED8[v464 + dword_2DF3EF8[a1]] = *(_BYTE *)v12;
+
+Example:
+
+main()
+{
+	scripts/zm/grief/gametype_modules/_power::init_replacements();
+}
+
+Solution: Add #include scripts/zm/grief/gametype_modules/_power; to the top of the file.
