@@ -1,0 +1,44 @@
+{
+	"NewClientHudElem()": {
+	  "Args": "<client>",
+	  "Type": "Function",
+	  "Description": "Allocates a client HUD elem and returns a reference to that HUD elem. Only visible to the client it was created for.",
+	  "Usage": "hud_ref = NewClientHudElem(<client>);",
+	  "Quirks": "None."
+	},
+	"NewDamageIndicatorHudElem()": {
+	  "Args": "<client>",
+	  "Type": "Function",
+	  "Description": "Allocates a client damage indicator HUD elem and returns a reference to that HUD elem. Only visible to the client it was created for.",
+	  "Usage": "hud_ref = NewDamageIndicatorHudElem(<client>);",
+	  "Quirks": "Identical to NewClientHudElem() in code."
+	},
+	"NewHudElem()": {
+	  "Args": "None",
+	  "Type": "Function",
+	  "Description": "Allocates a server HUD elem and returns a reference to that HUD elem. Visible to all players regardless of team.",
+	  "Usage": "hud_ref = NewHudElem();",
+	  "Quirks": "None."
+	},
+	"NewDebugHudElem()": {
+	  "Args": "None",
+	  "Type": "Function",
+	  "Description": "Allocates a debug HUD elem with special flags and returns a reference to that HUD elem.",
+	  "Usage": "hud_ref = NewDebugHudElem();",
+	  "Quirks": "Almost identical to NewHudElem() in code. Only difference is the flags |=0x40000."
+	},
+	"NewTeamHudElem()": {
+	  "Args": "<string>",
+	  "Type": "Function",
+	  "Description": "Allocates a team HUD elem and returns a reference to that HUD elem. Only visible to the input arg team.",
+	  "Usage": "hud_ref = NewTeamHudElem(<teamName>);",
+	  "Quirks": "None."
+	},
+	"NewScoreHudElem()": {
+	  "Args": "<client>",
+	  "Type": "Function",
+	  "Description": "Allocates a client score HUD elem and returns a reference to that HUD elem.",
+	  "Usage": "hud_ref = NewScoreHudElem(<client>);",
+	  "Quirks": "None."
+	}
+  }

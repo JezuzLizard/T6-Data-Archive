@@ -1,0 +1,200 @@
+{
+	"All": {
+	  "Destroy()": {
+		"Args": "None",
+		"Type": "Method",
+		"Description": "Destroys the HUD ref. Once destroyed all shaders/text/values displayed are also immediately removed. Required for ClearAllTextAfterHudElem() to clear config strings.",
+		"Usage": "<HUD ref> destroy();",
+		"Quirks": "None"
+	  },
+	  "Reset()": {
+		"Args": "None",
+		"Type": "Method",
+		"Description": "Resets all HUD ref fields to their defaults. Does not destroy the HUD ref.",
+		"Usage": "<HUD ref> reset();",
+		"Quirks": "None"
+	  },
+	  "FadeOverTime()": {
+		"Args": "<float>",
+		"Type": "Method",
+		"Description": "Makes a HUD elem change to the HUD elem's alpha field's value over a period of time instead of immediately.",
+		"Usage": "<HUD ref> FadeOverTime(<timeToFade>);",
+		"Quirks": "None"
+	  },
+	  "MoveOverTime()": {
+		"Args": "<float>",
+		"Type": "Method",
+		"Description": "Makes a HUD elem change to the HUD elem's x, and y fields over a period of time instead of immediately.",
+		"Usage": "<HUD ref> MoveOverTime(<timeToMove>);",
+		"Quirks": "None"
+	  }
+	},
+	"Text": {
+	  "ClearAllTextAfterHudElm()": {
+		"Args": "None",
+		"Type": "Method",
+		"Description": "When called on <HUD ref> all HUD elems destroyed afterwards all send client commands to clear every HUD elem destroyed's config strings. Only applies to SetText() calls, and the label field.",
+		"Usage": "<HUD ref> ClearAllTextAfterHudElem();",
+		"Quirks": "It is possible to queue up so many client commands with this method that clients will be kicked due to a EXE_LOSTRELIABLECOMMANDS error."
+	  },
+	  "ChangeFontScaleOverTime()": {
+		"Args": "<float>",
+		"Type": "Method",
+		"Description": "Makes a HUD elem change to the HUD elem's fontscale field over a period of time instead of immediately.",
+		"Usage": "<HUD ref> MoveOverTime(<timeToScale>);",
+		"Quirks": "None"
+	  },
+	  "GetTextWidth()": {
+		"Args": "None",
+		"Type": "Method",
+		"Description": "Calculates the text width of the current HUD elem's text based on language, and font. Must be called on a HUD elem that has used SetText() or the label field and currently has text set. Returns an int.",
+		"Usage": "text_width = <HUD ref> GetTextWidth();",
+		"Quirks": "None"
+	  },
+	  "SetGameTypeString()UNK": {
+		"Args": "None",
+		"Description": "Sets a HUD elem text to that of the gametype",
+		"Type": "",
+		"Usage": "",
+		"Quirks": ""
+	  },
+	  "SetPlayerNameString()": {
+		"Args": "<client>",
+		"Type": "Method",
+		"Description": "Sets the HUD elem text to that of the input player's name.",
+		"Usage": "<HUD ref> SetPlayerNameString(<client>);",
+		"Quirks": "None"
+	  },
+	  "SetMapNameString()UNK": {
+		"Args": "None",
+		"Type": "Method",
+		"Description": "",
+		"Usage": "",
+		"Quirks": ""
+	  },
+	  "SetText()": {
+		"Args": "<string|istring>",
+		"Type": "Method",
+		"Description": "Sets the HUD elem to display a string. Can use localized istrings. Cast a normal string to an istring by using the '&' symbol in front of a normal string surround by quotes.",
+		"Usage": "<HUD ref> SetText(<string|istring>);",
+		"Quirks": "Since SetText() uses config strings to make the clients display the input string there is a chance of a config string overflow which results in the kicking of every client. Use ClearAllTextAfterHudElem() to work around this issue."
+	  },
+	  "SetPulseFX()": {
+		"Args": "<unsigned int>,<unsigned int>,<unsigned int>",
+		"Type": "Method",
+		"Description": "Starts pulse FX on the HUD text elem.",
+		"Usage": "<HUD ref> SetPulseFX(<FXLetterTime>,<decayStartTime>,<FXDecayDuration>);",
+		"Quirks": "None"
+	  },
+	  "SetRedactFX()": {
+		"Args": "<unsigned int>,<unsigned int>,<unsigned int>,<unsigned int>",
+		"Type": "Method",
+		"Description": "Starts redact FX on the HUD text elem.",
+		"Usage": "<HUD ref> SetRedactFX(<decayStartTime>,<FXDecayDuration>,<FXDecayDuration>,<FXRedactDecayStartTime>,<FXRedactDecayDuration>);",
+		"Quirks": "None"
+	  },
+	  "SetTypewriterFX()": {
+		"Args": "<unsigned int>,<unsigned int>,<unsigned int>",
+		"Type": "Method",
+		"Description": "Starts typewriter FX on the HUD text elem.",
+		"Usage": "<HUD ref> SetRedactFX(<FXLetterTime>,<FXDecayStartTime>,<FXDecayDuration>);",
+		"Quirks": "None"
+	  }
+	},
+	"Shader": {
+	  "SetShader()": {
+		"Args": "<material_name>",
+		"Type": "Method",
+		"Description": "Sets the HUD elem to display input material name. If the game cannot find the material it will display as a missing texture.",
+		"Usage": "<HUD ref> SetShader(<material_name>);",
+		"Quirks": "Not all materials can be displayed using SetShader()."
+	  },
+	  "ScaleOverTime()": {
+		"Args": "<float>,<int>,<int>",
+		"Type": "Method",
+		"Description": "Makes a HUD elem change to the input height and width over a period of time instead of immediately.",
+		"Usage": "<HUD ref> ScaleOverTime(<timeToScale,<width>,<height>);",
+		"Quirks": "None"
+	  },
+	  "Waypoint": {
+		"SetWaypoint": {
+		  "Args": "<bool>,[string],[bool],[bool]",
+		  "Type": "Method",
+		  "Description": "Creates a new waypoint HUD elem to display a shader at a 3D location.",
+		  "Usage": "<HUD ref> ClearTargetEnt(<constantSize>,[offscreenShader],[showDistance],[showOffscreenArrows]);",
+		  "Quirks": "Can only be used on shader HUD elem types."
+		},
+		"SetTargetEnt()": {
+		  "Args": "<entity>",
+		  "Type": "Method",
+		  "Description": "Requires an entity argument in order to make the HUD elem follow the entity with greatly reduced lag. Alternatively, you can set the x, y, and z fields manually without requiring an entity.",
+		  "Usage": "<HUD ref> SetTargetEnt(<entity>);",
+		  "Quirks": "Can be used on any entity or tag of an entity."
+		},
+		"ClearTargetEnt()": {
+		  "Args": "None",
+		  "Type": "Method",
+		  "Description": "Makes the HUD elem to no longer follow the entity it was targeting.",
+		  "Usage": "<HUD ref> ClearTargetEnt();",
+		  "Quirks": "None."
+		}
+	  }
+	},
+	"Value": {
+	  "SetValue()": {
+		"Args": "<float> ",
+		"Type": "Method",
+		"Description": "Causes the HUD elem to display the input number. Can be used in conjunction with the label field to display a static string and dynamic number value with one HUD elem.",
+		"Usage": "<HUD ref> SetValue(<value>);",
+		"Quirks": "None"
+	  }
+	},
+	"Timer": {
+	  "SetTimer()": {
+		"Args": "<float>",
+		"Type": "Method",
+		"Description": "Displays a countdown timer in <minutes:seconds> format i.e. 59:59. Multiplies the input time by 1000 in code to get milliseconds.",
+		"Usage": "<HUD ref> SetTimer(<seconds>);",
+		"Quirks": ""
+	  },
+	  "SetTimerUp()": {
+		"Args": "<float>",
+		"Type": "Method",
+		"Description": "Displays a countup timer in <minutes:seconds> format i.e. 59:59. Multiplies the input time by 1000 in code to get milliseconds.",
+		"Usage": "<HUD ref> SetTimerUp(<seconds>);",
+		"Quirks": "Input seconds can be negative."
+	  },
+	  "SetTenthsTimer()": {
+		"Args": "<float>",
+		"Type": "Method",
+		"Description": "Displays a countdown timer in <seconds:tenths_of_a_second> format i.e. 59:99. Multiplies the input time by 1000 in code to get milliseconds.",
+		"Usage": "<HUD ref> SetTimerUp(<seconds>);",
+		"Quirks": ""
+	  },
+	  "SetTenthsTimerUp()": {
+		"Args": "<float>",
+		"Type": "Method",
+		"Description": "Displays a countup timer in <seconds:tenths_of_a_second> format i.e. 59:99. Multiplies the input time by 1000 in code to get milliseconds.",
+		"Usage": "<HUD ref> SetTimerUp(<seconds>);",
+		"Quirks": "Input seconds cannot be negative unlike SetTimerUp()."
+	  }
+	},
+	"Clock": {
+	  "SetClock()": {
+		"Args": "<float>,<float>,<string>,[int],[int]",
+		"Type": "Method",
+		"Description": "Displays a clock elem. Is what is used for Der Riese for the stopwatch. Requires a valid clock material to function correctly.",
+		"Usage": "<HUD ref> SetTimerUp(<seconds>);",
+		"Quirks": "None."
+	  }
+	},
+	"Perks": {
+	  "SetPerks()UNK": {
+		"Args": "<client>",
+		"Type": "Method",
+		"Description": "UNK",
+		"Usage": "<HUD ref> SetPerks(<client>);",
+		"Quirks": "None."
+	  }
+	}
+  }
