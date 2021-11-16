@@ -1,0 +1,211 @@
+{
+	"Appearance": {
+	  ".font": {
+		"Type": "String",
+		"Description": "Sets the font of the text/value HUD elem. Must be a valid font which is one of the following: default, bigfixed, smallfixed, objective, big, small, extrabig, and extrasmall.",
+		"Default": "default",
+		"Usage": "<HUD ref>.font = <fontname>;",
+		"Quirks": "None"
+	  },
+	  ".fontscale": {
+		"Type": "Float",
+		"Description": "Controls how large the text/value HUD elem is.",
+		"Default": 1,
+		"Usage": "<HUD ref>.fontscale = <fontsize>;",
+		"Quirks": "None"
+	  },
+	  ".fontstyle3d": {
+		"Type": "String",
+		"Description": "Makes the text/value HUD elem use a 3D font style. Valid fontstyles are: normal, shadowed, and shadowedmore",
+		"Default": "normal",
+		"Usage": "<HUD ref>.fontstyle3d = <fontstyle>;",
+		"Quirks": "None"
+	  },
+	  ".alpha": {
+		"Type": "Float",
+		"Description": "Sets the HUD elem's transparency. ",
+		"Default": false,
+		"Usage": "<HUD ref>.alpha = <float>;",
+		"Quirks": "None"
+	  },
+	  ".color": {
+		"Type": "Vector",
+		"Description": "Sets the HUD elem's color in RGB. Must be done using a vector. You can convert RGB 255 to the format the game uses by dividing the color by 255. You must round to the nearest hundreths or the VM will crash.  ",
+		"Default": "(1.0,1.0,1.0)",
+		"Usage": "<HUD ref>.color = <(float,float,float)>;",
+		"Quirks": "None"
+	  },
+	  ".label": {
+		"Type": "String",
+		"Description": "Sets a static string for the HUD elem to use. Useful for using other types of HUD elem functions at the same time such as SetValue(), or SetTimer(). ",
+		"Default": "Empty String",
+		"Usage": "<HUD ref>.label = <string>;",
+		"Quirks": "Can accept iStrings like SetText(), but does not require an iString."
+	  },
+	  ".font3duseglowcolor": {
+		"Type": "Bool",
+		"Description": "UNKNWON",
+		"Default": false,
+		"Usage": "<HUD ref>.font3duseglowcolor = <bool>;",
+		"Quirks": "None"
+	  },
+	  ".glowcolor": {
+		"Type": "Vector",
+		"Description": "Sets the glow color of the HUD elem. ",
+		"Default": "(0.0,0.0,0.0)",
+		"Usage": "<HUD ref>.glowcolor = <(float,float,float)>;",
+		"Quirks": "None"
+	  },
+	  ".glowalpha": {
+		"Type": "Vector",
+		"Description": "Sets glow transparency on the HUD elem ",
+		"Default": 0,
+		"Usage": "<HUD ref>.glowalpha = <float>;",
+		"Quirks": "None"
+	  }
+	},
+	"Position": {
+	  ".x": {
+		"Type": "Int",
+		"Description": "Stores the HUD elems current x coordinate. ",
+		"Default": 0,
+		"Usage": "<HUD ref>.x = <int>;",
+		"Quirks": "None"
+	  },
+	  ".y": {
+		"Type": "Int",
+		"Description": "Stores the HUD elem's current y coordinate. ",
+		"Default": 0,
+		"Usage": "<HUD ref>.y = <int>;",
+		"Quirks": "None"
+	  },
+	  ".z": {
+		"Type": "Int",
+		"Description": "Stores the HUD elem's current z coordinate. Only relevant for waypoint type HUD elems. ",
+		"Default": 0,
+		"Usage": "<HUD ref>.z = <int>;",
+		"Quirks": "None"
+	  },
+	  ".alignx": {
+		"Type": "String",
+		"Description": "Modifies the .x coordinate of the HUD elem to align with points on the user's screen. Valid inputs are left, center, and right.",
+		"Default": "Empty String",
+		"Usage": "<HUD ref>.alignx = <xalignment>;",
+		"Quirks": "None"
+	  },
+	  ".aligny": {
+		"Type": "String",
+		"Description": "Modifies the HUD elem .y to align at points on the screen. Valid inputs are: top, middle, bottom.",
+		"Default": false,
+		"Usage": "<HUD ref>.aligny = <yalignment>;",
+		"Quirks": "None"
+	  },
+	  ".horzalign": {
+		"Type": "String",
+		"Description": "Modifies the HUD elem's .x coordinate depending on the alignment. Valid inputs are subleft, left, center, right, fullscreen, noscale, alignto640, center_safearea, user_left, user_center, and user_right. ",
+		"Default": "Empty String",
+		"Usage": "<HUD ref>.horzalign = <horzalignment>;",
+		"Quirks": "center_safearea, user_left, user_center, and user_right all respect a user's resolution and HUD safearea."
+	  },
+	  ".vertalign": {
+		"Type": "String",
+		"Description": "Modifies the HUD elem's .y coordinate to align at specific points. Valid inputs are: subtop, top, middle, bottom, fullscreen, noscale, alignto480, center_safearea, user_top, user_center, and user_bottom. ",
+		"Default": "Empty String",
+		"Usage": "<HUD ref>.vertalign = <vertalignment>;",
+		"Quirks": "None"
+	  },
+	  ".sort": {
+		"Type": "Int",
+		"Description": "HUD elems with higher sorts appear on top. ",
+		"Default": 0,
+		"Usage": "<HUD ref>.sort = <signed int>;",
+		"Quirks": "None"
+	  },
+	  ".foreground": {
+		"Type": "Bool",
+		"Description": "UNKNWON ",
+		"Default": false,
+		"Usage": "<HUD ref>.foreground = <bool>;",
+		"Quirks": "None"
+	  }
+	},
+	"Visibility": {
+	  ".archived": {
+		"Type": "Bool",
+		"Description": "UNKNOWN",
+		"Default": false,
+		"Usage": "<HUD ref>.archived = <bool>;",
+		"Quirks": "If true HUD elems can be visible during killcams."
+	  },
+	  ".hidewhendead": {
+		"Type": "Bool",
+		"Description": "Makes the HUD elem change visibility when the client is dead.",
+		"Default": false,
+		"Usage": "<HUD ref>.hidewhendead = <bool>;",
+		"Quirks": "None"
+	  },
+	  ".hidewheninkillcam": {
+		"Type": "Bool",
+		"Description": "Makes the HUD elem change visibility when the client is in a killcam.",
+		"Default": false,
+		"Usage": "<HUD ref>.hidewheninkillcam = <bool>;",
+		"Quirks": "None"
+	  },
+	  ".hidewhenindemo": {
+		"Type": "Bool",
+		"Description": "Makes the HUD elem change visibility when the client is playing a demo.",
+		"Default": false,
+		"Usage": "<HUD ref>.hidewhenindemo = <bool>;",
+		"Quirks": "None"
+	  },
+	  ".hidewheninmenu": {
+		"Type": "Bool",
+		"Description": "Makes the HUD elem change visibility when the client is in a LUI menu.",
+		"Default": false,
+		"Usage": "<HUD ref>.hidewheninmenu = <bool>;",
+		"Quirks": "None"
+	  },
+	  ".hidewheninscope": {
+		"Type": "Bool",
+		"Description": "Makes the HUD elem change visibility when the client is looking in a weapon scope.",
+		"Default": false,
+		"Usage": "<HUD ref>.hidewheninscope = <bool>;",
+		"Quirks": "None"
+	  },
+	  ".hidewhileremotecontrolling": {
+		"Type": "Bool",
+		"Description": "Makes the HUD elem change visibility when the client is remote controlling a scorestreak.",
+		"Default": false,
+		"Usage": "<HUD ref>.hidewhileremotecontrolling = <bool>;",
+		"Quirks": "None"
+	  },
+	  ".fadewhentargeted": {
+		"Type": "Bool",
+		"Description": "UNKNOWN",
+		"Default": false,
+		"Usage": "<HUD ref>.fadewhentargeted = <bool>;",
+		"Quirks": "None"
+	  },
+	  ".showplayerteamhudelemtospectator": {
+		"Type": "Bool",
+		"Description": "UNKNOWN",
+		"Default": false,
+		"Usage": "<HUD ref>.showplayerteamhudelemtospectator = <bool>;",
+		"Quirks": "None"
+	  },
+	  ".immunetodemofreecamera": {
+		"Type": "Bool",
+		"Description": "UNKNOWN",
+		"Default": false,
+		"Usage": "<HUD ref>.immunetodemofreecamera = <bool>;",
+		"Quirks": "None"
+	  },
+	  ".immunetodemogamehudsettings": {
+		"Type": "Bool",
+		"Description": "Controls whether HUD elems will be unaffected by HUD toggling settings in demos.",
+		"Default": false,
+		"Usage": "<HUD ref>.immunetodemogamehudsettings = <bool>;",
+		"Quirks": "None"
+	  }
+	}
+  }
