@@ -1,5 +1,7 @@
 Problem: Caused by trying to call a function from a script but no script is including the script which contains that function.
 
+Note: Doesn't happen with https://github.com/xensik/gsc-tool
+
 Exact line 520: byte_2DF3ED8[v464 + dword_2DF3EF8[a1]] = *(_BYTE *)v12;
 
 Example:
