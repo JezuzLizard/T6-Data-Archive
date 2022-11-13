@@ -57,7 +57,7 @@
 			"Quirks": "None"
 		},
 		".glowalpha": {
-			"Type": "Vector",
+			"Type": "Float",
 			"Description": "Sets glow transparency on the HUD elem ",
 			"Default": 0,
 			"Usage": "<HUD ref>.glowalpha = <float>;",
@@ -66,21 +66,21 @@
 	},
 	"Position": {
 		".x": {
-			"Type": "Int",
+			"Type": "Float",
 			"Description": "Stores the HUD elems current x coordinate. ",
 			"Default": 0,
 			"Usage": "<HUD ref>.x = <int>;",
 			"Quirks": "None"
 		},
 		".y": {
-			"Type": "Int",
+			"Type": "Float",
 			"Description": "Stores the HUD elem's current y coordinate. ",
 			"Default": 0,
 			"Usage": "<HUD ref>.y = <int>;",
 			"Quirks": "None"
 		},
 		".z": {
-			"Type": "Int",
+			"Type": "Float",
 			"Description": "Stores the HUD elem's current z coordinate. Only relevant for waypoint type HUD elems. ",
 			"Default": 0,
 			"Usage": "<HUD ref>.z = <int>;",
